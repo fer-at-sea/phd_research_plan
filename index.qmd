@@ -38,7 +38,7 @@ Jaime Bernardeau Esteller [![ORCID](https://orcid.org/sites/default/files/images
 Jordi Boada [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-3815-625X) [![](assets/img/img.png)](mailto:jboada@ceab.csic.es) ([CEAB-CSIC](https://www.ceab.csic.es/es/))  
 Pablo González-González [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-9250-0920) [![](assets/img/img.png)](mailto:gonzalezgpablo@uniovi.es) ([Artificial Intelligence Center, Oviedo University ](https://www.aic.uniovi.es))  
   
-**Phd supervisor**  
+**Academic tutor**  
 Jana Verdura [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-0662-1206) [![](assets/img/img.png)](mailto:jana.verdura@udg.edu) ([GR MAR, Girona University](https://iea.udg.edu/grmar2022/))  
 
 &nbsp; 
@@ -78,9 +78,9 @@ The challenge of reconciling development and conservation must be urgently addre
 
 Achieving these conservation goals requires robust, scientifically grounded methodologies for assessing the status of coastal ecosystems to guide evidence-based decision making. A key component of these assessments is the ability to monitor habitat distribution periodically across multiple spatial scales, evaluating aspects such as range, extent, and the degree of fragmentation or connectivity. In this context, there is a clear trade-off between scale and accuracy. Traditional in situ distribution monitoring techniques provide high precision but are limited to small spatial scales. In contrast, the recent growth of remote sensing (RS) and geospatial data analysis offers considerable potential to address habitat distribution at broader scales. 
 
-The fundamental challenge lies in ensuring that cartographic products derived from remote sensors support solid scientific inference [@olofsson_good_2014, @mcroberts_2011, @foody_status_2002, @congalton_1991] and align with the transdisciplinary knowledge required for effective environmental decision-making [@kilminster_2015]. Achieving this requires a balance between in situ and remotely sensed data, and between technical and ecological knowledge. These considerations are essential for remote sensing to contribute effectively to conservation status assessment and coastal management.
+The fundamental challenge lies in ensuring that cartographic products derived from remote sensors support solid scientific inference [@olofsson_good_2014; @mcroberts_2011;@foody_status_2002; @congalton_1991] and align with the transdisciplinary knowledge required for effective environmental decision-making [@kilminster_2015]. Achieving this requires a balance between in situ and remotely sensed data, and between technical and ecological knowledge. These considerations are essential for remote sensing to contribute effectively to conservation status assessment and coastal management.
 
-The main objective of this research project is to **leverage strong ecological expertise and long term in situ datasets to develop and test novel RS and geospatial methodologies for mapping and monitoring marine vegetated ecosystems in the intertidal and subtidal coastal zones**. To achieve this, the potential of different RS platforms will be explored across **two spatial scales**. At the **fine scale**, underwater and aerial drones will be used to produce high-resolution maps, enabling the study of habitat spatial configuration, fragmentation and ecological status. At the **broad scale**, satellite imagery will be employed to generate maps of habitat distribution and to investigate temporal dynamics in habitat extent.
+The main objective of this research project is to **develop and test novel RS and geospatial methodologies for mapping and monitoring marine vegetated ecosystems in the intertidal and subtidal coastal zones by leveraging strong ecological expertise and long term in situ datasets**. To achieve this, the potential of different RS platforms will be explored across **two spatial scales**. At the **fine scale**, underwater and aerial drones will be used to produce high-resolution maps, enabling the study of habitat spatial configuration, fragmentation and ecological status. At the **broad scale**, satellite imagery will be employed to generate maps of habitat distribution and to investigate temporal dynamics in habitat extent.
 
 
 ![Interaction between the different observation scales.](assets/img/scales.JPG){width=70%}
@@ -127,23 +127,54 @@ Monitoring **intertidal vegetation** with RS also presents specific challenges. 
 ### Objectives
 
 #### Main phd objective
- **Leverage strong ecological expertise and long term in situ datasets to develop and test novel RS and geospatial methodologies for mapping and monitoring marine vegetated ecosystems in the intertidal and subtidal coastal zones.**
+ **To develop and test novel RS and geospatial methodologies for mapping and monitoring marine vegetated ecosystems in the intertidal and subtidal coastal zones by leveraging strong ecological expertise and long term in situ datasets**
 
 #### Specific objectives
 
-##### Fine scale I: monitoring *P. oceanica* deep limits and landscape metrics as ecological indicators
- Explore the potential of integrating underwater photogrammetry, **autonomous underwater vehicles**, and advanced image analysis to overcome traditional limitations in monitoring the deep limit of *P. oceanica*. Generating ultra-high resolution maps of the deep limits will allow for higher spatial precision, enabling the incorporation of landscape analysis to asses the structure and spatial configuration of the meadow limits. These seascape metrics offer a novel and promising perspective for assessing the ecological status of *P. oceanica* meadows at their deep limits, complementing traditional indicators. 
-
-
-##### Fine scale II: monitoring sea urchin barren evolution in relation to fishing effort
-Develop a methodology, based on **aerial drones**, to asses underwater barren extensions caused by the overgrazing of herbivorous sea urchins *P. lividus* and *A. lixula*. Analyze temporal dynamics of barren expansion and contraction in relation to sea urchin harvesting pressure.
-
-
 ##### Broad scale I: mapping subtidal marine vegetation with Sentinel-2
-Use **Sentinel-2** to design a scalable and reproducible Python processing workflow to map underwater vegetation in Special Areas of Conservation (SAC) as defined by the Habitat Directive. Assess the spectral separability of different species and bottom types across bioregions and leverage high quality field validation data to develop a rigorous accuracy assessment methodology that can be applied to these RS-derived cartographies and other mapping products. Temporal trends in habitat distribution will also be analyzed for dynamic seagrass species.
+There is a growing use of Sentinel-2 imagery and machine learning techniques to map seagrass meadows and macroalgal forests. Despite the advances achieved, important methodological considerations remain, particularly regarding accuracy assessment practices and the constraints imposed by the water column on habitat detection and discrimination.
+
+This work aims to design a scalable and reproducible Python-based processing workflow for mapping underwater vegetation using **Sentinel-2** in Special Areas of Conservation (SACs), as defined by the Habitat Directive. The workflow will integrate machine learning methods and physics-based modelling approaches. The study will assess the spectral separability of different species and bottom types across bioregions and will leverage extensive high-quality field validation data to develop a robust accuracy assessment framework applicable to remote sensing-derived cartographies and other mapping products. Temporal trends in habitat distribution will also be analyzed for dynamic seagrass species.
 
 ##### Broad scale II: mapping intertidal seagrass meadows with Sentinel-2 and in situ data.
-Use **Sentinel-2** to design a scalable and reproducible Python processing workflow to study the temporal variability of *N. noltei* intertidal meadows in the north coast of Spain.
+Intertidal environments offer favorable conditions for remote sensing analyses, as imagery acquired during spring low tides minimizes the influence of the water column and enhances the detection of benthic habitats. These conditions increase the spectral discrimination potential of habitat types, including intertidal seagrass meadows.
+
+This work aims to develop a scalable and reproducible Python-based processing workflow for mapping intertidal *Nanozostera noltei* meadows along the north coast of Spain using Planet and Sentinel-2 imagery. Building upon methodological advances previously implemented in France (@davies_intertidal_2024), the workflow will integrate satellite observations with in situ data from the collaborative seagrass monitoring program NORGRASS, to assess meadow distribution and analyze temporal trends.
+
+##### Fine scale I: monitoring *P. oceanica* seagrass meadows limits at depth and the associated landscape metrics as ecological indicators
+At depths where sunlight cannot penetrate sufficiently for the electromagnetic signal to reach the seabed and return to the satellite, alternative monitoring approaches are required. This study we will explore the integration of underwater photogrammetry, **autonomous underwater vehicles**, and advanced image analysis to overcome traditional limitations in monitoring the deep limit of *P. oceanica*. Generating millimetric-resolution maps of the deep meadow limits enables greater spatial precision, allowing the application of landscape metrics to asses the structure and spatial configuration of the meadow limits. These seascape metrics provide a promising perspective to be incorporated in the assessment of the ecological status of *P. oceanica* meadows, complementing traditional indicators. 
+
+
+##### Fine scale II: quantifying the capacity of marine vegetation to recover from sea urchin barrens in relation with harvesting effort
+When thespatial resolution of satellite imagery is insufficient to detect fine-scale changes in marine vegetation cover, **aerial drones** provide a practical solution. In this study, I will first develop a methodology, based on drones, to quantily underwater bare-rock areas caused by the overgrazing of herbivorous sea urchins *P. lividus* and *A. lixula*. Then, I will analyze the temporal dynamics of barren expansion and contraction in relation to sea urchin harvesting pressure, using data from a pilot study area encompassing more than 5 fishing grounds for which sea urchin harvesters provide seasonal catch information. This approach will contribute to understanding how fisheries management can enhance the resilience and recovery potential of marine vegetation.
+
+### Timeline
+Having worked as a geospatial data analyst and research assistant for the past five years has paved the way for this PhD. Part of the proposed work will therefore build on and bring to completion ongoing and previously initiated studies. As a result, the timeline of the PhD is closely aligned with the continuation of my current work and research activities.
+
+```{mermaid}
+gantt
+    dateFormat  YYYY-MM-DD
+    axisFormat  %Y-%m
+    section Year 1
+    Broad scale I publication           :a1, 2026-01-01, 10M
+    Congress I:             :a2, 2026-06-01, 5M
+    Erasmus                 :a3, 2026-07-01, 4M
+    Fine scale I  publication          :a4, 2026-07-01, 10M
+    
+    
+    section Year 2
+    Fine scale II publication          :b1, 2027-01-01, 10M
+    Congress II:            :b2, 2027-06-01, 5M
+    
+    section Year 3
+    Broad scale II publication         :d0, 2027-04-01, 10M
+    Thesis intro           :d1, 2028-01-01, 5M
+    Submission              :d2, 2028-04-01, 5M
+    Defense                 :d4, 2028-08-01, 5M
+```
+
+
+
 
 
 ### Methodology
@@ -170,70 +201,51 @@ The research will integrate heterogeneous datasets including (i) long-term field
 
 **Reusable:** Documentation will include data dictionaries, methodology, and quality-control procedures. Open licenses (CC BY/CC BY-NC) will facilitate reuse for monitoring, validation, and conservation planning.
 
-### Timeline
-Having worked as a geospatial data analyst and research assistant for the past five years has paved the way for this PhD. Part of the proposed work will therefore build on and bring to completion ongoing and previously initiated studies. As a result, the timeline of the PhD is closely aligned with the continuation of my current work and research activities.
 
-```{mermaid}
-gantt
-    dateFormat  YYYY-MM-DD
-    axisFormat  %Y
-    section Year 1
-    Literature review           :a1, 2026-01-01, 10M
-    Methodology development     :b2, 2026-03-01, 14M
-    Remote sensing analysis     :b1, 2026-03-01, 18M
-    
-    section Year 2
-    Field campaigns & sampling  :a2, 2027-01-01, 16M
-    Manuscript drafting         :c2, 2027-09-01, 12M
-    
-    section Year 3
-    Thesis writing              :d1, 2028-04-01, 8M
-    Submission                  :d2, 2028-08-01, 6M
-    Defense                     :d3, 2028-10-01, 6M
-```
 
 ## Researcher development plan
 
 #### 1. Training Courses
-- Attend workshops and training to strengthen technical expertise in remote sensing, geospatial data analysis, and deep learning, while also developing skills in coding, data management, FAIR principles, and reproducible research practices.
-- Potential courses are:
-    - Experimental design and sampling, Girona University (1 ECTS)
-    - [IOCCG Summer Lecture Series, Frontiers in Ocean Optics and Ocean Colour Science](https://ioccg.org/what-we-do/training-and-education/ioccg-sls/)
+- Attend workshops and training to strengthen technical expertise in remote sensing, geospatial data analysis, and deep learning, while also developing skills in coding, data management, FAIR principles, and reproducible research practices.Potential courses are:
+  - Experimental design and sampling, Girona University (1 ECTS)
+  - [IOCCG Summer Lecture Series, Frontiers in Ocean Optics and Ocean Colour Science](https://ioccg.org/what-we-do/training-and-education/ioccg-sls/)
 
-#### 2. Research Stays
-- Erasmus Mobility: A 6-month research stay at an international partner institution is planned during the first year, ideally coinciding with methodology development and remote sensing analysis. This will allow exposure to complementary methodologies, strengthen collaborations, and expand the research network.
+#### 2. Research Stay
+- Erasmus Mobility: A 4-month research stay at an international partner institution is planned during the first year, ideally coinciding with methodology development and remote sensing analysis. This will allow exposure to complementary methodologies, strengthen collaborations, and expand the research network.
 
 #### 3. Participation as attendee:  
 - Monthly group meetings and internal seminars.
 - Coordination meetings with public institutions.  
 
 #### 4. Participation as speaker
-- Participation in at least one national or international conference per year is planned to present results, engage with the scientific community, and receive feedback. 
-- Potential congresses are:  
-    - [21st Congress of the Spanish Remote Sensing Association](https://aetcc2026.es)
-    - [Geopython](https://www.python.org/events/python-events/2147/)
-    - [Jornades SIG Lliure UdG](https://www.jornadassiglibre.org/ca/)
-    - [FOSS4G (Free and Open Source Software for Geospatial)](https://www.osgeo.org/initiatives/foss4g/)
+- Participation in at least one national or international conference per year is planned to present results, engage with the scientific community, and receive feedback. Potential congresses are:  
+  - [21st Congress of the Spanish Remote Sensing Association](https://aetcc2026.es)
+  - [Geopython](https://www.python.org/events/python-events/2147/)
+  - [Jornades SIG Lliure UdG](https://www.jornadassiglibre.org/ca/)
+  - [FOSS4G (Free and Open Source Software for Geospatial)](https://www.osgeo.org/initiatives/foss4g/)
+  - ESA Living Planet Symposium
+  - [International Temperate Reef Symposium](https://itrs-home.org)
+  - ASLO Aquatic Science Meeting
+  - World Seagrass Conference
 
 #### 5. Open Science and Citizen Science Activities
 - Ensure all generated data and code follow **FAIR principles**  
-- Participation in public outreach:  
-  - Science week, Oceanographic Center of Gijón (2026, 2027, 2028)
+- Participate in public outreach activities, including the Science Week of the Oceanographic Center of Gijón and Pint of Science events.
 
 #### 6. Scientific Publications
 - Target publications during PhD:  
-  - **Year 1:** At least 1 research paper on the monitoring of *P. oceanica* deep limit using Autonomous Underwater Vehicles.
-  - **Year 2:** At least 1 research paper on the monitoring of underwater barrens using aerial drones.
-  - **Year 3:** At least 1 research paper on the use of Sentinel-2 to monitor underwater vegetation in marine protected areas.
+  - **Year 1:** At least **two research papers**, one on the use of Sentinel-2 to monitor underwater vegetation in marine protected (broad scale I) areas and another on the monitoring of *P. oceanica* deep limit using Autonomous Underwater Vehicles (small scale I).
+  - **Year 2:** At least **one research paper**, one on the monitoring of underwater barrens using aerial drones (small scale II) .
+  - **Year 3:** At least **one research paper** on the trends of intertidal vegetation in the north coast of Spain (broad scale II).
 - Consider submitting the thesis as a **compilation of publications**  
 
 
 #### 7. Training Planning
 | Year | Activities |
 |------|------------|
-| 2026 | Transversal & specific courses, literature review, remote sensing analyses, Erasmus stay (6 months), attendance at seminars and workshops |
-| 2027 | Field campaigns, remote sensing analyses, attendance & presentations at conferences |
-| 2028 | Data integration, thesis writing, manuscript drafting, oral presentations, open science dissemination, submission and defense of thesis |
+| 2026 | Transversal & specific courses, literature review, remote sensing analyses, Erasmus stay, attendance at seminars and workshops, one congress, **two research papers** |
+| 2027 | Field campaigns, remote sensing analyses, attendance & presentations at conferences, one congress, **one research paper**  |
+| 2028 | Data integration, thesis writing, open science dissemination, one congreds, **one research paper** submission and defense of thesis |
 
 
 
