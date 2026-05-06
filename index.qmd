@@ -1,6 +1,8 @@
 ---
 title: "Remote sensing of marine vegetation for monitoring and managing coastal ecosystems"
-author: "Fernando García-González"
+author: 
+ - name: "Fernando García-González"
+   url: "https://fer-at-sea.github.io/"
 bibliography: assets/references.bib
 format:
   html:
