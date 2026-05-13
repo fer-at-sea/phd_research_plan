@@ -33,10 +33,10 @@ format:
 ## Research plan
 
 **PhD candidate**  
-Fernando García-González [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-4042-6789) [![](assets/img/img.png)](mailto:f.garcia@ieo.csic.es) [![](assets/img/img.png)](mailto:fergrc@hotmail.com) ([Seagrass Ecology Group, IEO-CSIC](https://coastal-ai.github.io/GEAM_GEODATABASE/)) 
+Fernando García-González [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-4042-6789) [![](assets/img/img.png)](mailto:f.garcia@ieo.csic.es) [![](assets/img/img.png)](mailto:fergrc@hotmail.com) ([Seagrass Ecology Group, IEO-CSIC](https://www.ieo.es/)) 
   
 **PhD directors**   
-Jaime Bernardeau Esteller [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-9290-0609) [![](assets/img/img.png)](mailto:jaime.bernardeau@ieo.csic.es) ([Seagrass Ecology Group, IEO-CSIC](https://coastal-ai.github.io/GEAM_GEODATABASE/))     
+Jaime Bernardeau Esteller [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-9290-0609) [![](assets/img/img.png)](mailto:jaime.bernardeau@ieo.csic.es) ([Seagrass Ecology Group, IEO-CSIC](https://www.ieo.es/))     
 Jordi Boada [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-3815-625X) [![](assets/img/img.png)](mailto:jboada@ceab.csic.es) ([CEAB-CSIC](https://www.ceab.csic.es/es/))  
 Pablo González-González [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-9250-0920) [![](assets/img/img.png)](mailto:gonzalezgpablo@uniovi.es) ([Artificial Intelligence Center, Oviedo University ](https://www.aic.uniovi.es))  
   
